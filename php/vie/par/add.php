@@ -1,5 +1,5 @@
 
-<button class="bt bt-mis">
+<button class="btn btn-mis">
 
 add
 
