@@ -1,4 +1,0 @@
-# hos2
-## hostinger
-
-
