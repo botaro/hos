@@ -1,15 +1,16 @@
 <?php
 
 $ver=SQLite3::version();
-echo $ver["versionString"]."<br>";
+$ve2=$ver["versionString"];
 
 $dbn=rt."/db/php.db";
-echo $dbn;
 
 $db=new SQLite3($dbn);
 $q="select * from php";
 $r=$db->query($q);
-echo "<br>";
+?>
+
+<?php
 while($row=$r->fetchArray()){
 echo $row["typ"]."<br>";
 echo $row["tit"]."<br>";
@@ -18,4 +19,3 @@ echo $row["bod"];
 echo "<br><br>";
 }
 
-?>

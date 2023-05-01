@@ -4,7 +4,7 @@
 <div class="btn btn-info">php</div><br>
 
 </div>
-<?php include "php/que.php"; ?><br>
+<?php include "que.php"; ?><br>
 
 </div>
 </div>
