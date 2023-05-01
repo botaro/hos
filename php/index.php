@@ -1,3 +1,5 @@
+
+<?php include "def.php";?>
 <!DOCTYPE html>
 <html lang="en">
 <?php include "vie/hd.php";?>

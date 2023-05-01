@@ -1,16 +1,13 @@
+
 <body>
-<div class=card>
-<div class=card-body>
-<div class="d-flex justify-content-center">
+
+<div class=d-flex>
 
 <?php
-define("rt",dirname(__FILE__));
+include ("par/add.php");
 include ("par/bod.php");
 ?>
 
 </div>
-</div>
-</div>
-
 
 </body>

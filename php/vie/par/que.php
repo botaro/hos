@@ -3,7 +3,7 @@
 $ver=SQLite3::version();
 $ve2=$ver["versionString"];
 
-$dbn=rt."/db/php.db";
+$dbn=rt."/vie/db/php.db";
 
 $db=new SQLite3($dbn);
 $q="select * from php";
