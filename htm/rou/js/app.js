@@ -36,7 +36,7 @@ function preload(){
 }
 
 function setup(){
-    var canvas = createCanvas(displayWidth/2,displayHeight/2);
+    var canvas = createCanvas(displayWidth/2,displayHeight*2/5);
     canvas.parent('canvas');
     textSize(20);
     stroke(0,0,0);

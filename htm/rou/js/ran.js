@@ -1,17 +1,12 @@
 let ani=["ヒューマン","モダン","草食","肉食"]
-let robl=6
-let bosl=5
-let liml=9
-let rob=[],bos=[],lim=[]
+let rob=["箱","球函ベース","ホイールベース","四輪","二足","四足"]
+let lim=["尻尾","翼","ボーンスパイク","パンチャー","触手","爪","ソードハンド","ハンマーハンド","槍の手"]
 
-for(j=0;j<robl;j++)rob.push("ロボット"+(j+1) )
-for(j=0;j<bosl;j++)bos.push("ボス"+(j+1) )
-for(j=0;j<liml;j++)lim.push("うで"+(j+1) )
-let bas=[...ani,...rob,...bos]
+let bas=[...ani,...rob]
 cl(bas.length)
 
-let tor=["ヒューマン","草食","肉食"]
-let hea=["ヒューマン","モダン","草食","肉食","プラズマ"]
+let tor=["人型","草食","肉食"]
+let hea=["人型","現代","草食","肉食","プラズマ","地獄","爬虫"]
 
 let ra1=Math.floor(Math.random()*bas.length)
 let ra2=Math.floor(Math.random()*tor.length)
@@ -29,12 +24,14 @@ cl(obj)
 
 let inp=gCl("name")
 let b1="<div class='btn btn-info'>ベース: "+obj.b+"</div>"
-let b2="<div class='btn btn-warning'>体: "+obj.t+"</div>"
+let b2="<div class='btn btn-warning'>胴体: "+obj.t+"</div>"
 let b3="<div class='btn btn-danger'>頭: "+obj.h+"</div>"
-let b4="<div class='btn btn-success'>腕: "+obj.l+"</div>"
+let b4="<div class='btn btn-success'>四肢: "+obj.l+"</div>"
 
 for(j=0;j<7;j++){stA(inp[j],"value",b1+b2+b3+b4)
 }
 
+let hval=gCl("name")[0]
+cl(hval.value)
 
 
