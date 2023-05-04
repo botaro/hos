@@ -8,6 +8,7 @@ clA(a1,"alert-warning")
 clA(a1,"alert-dismissible")
 clA(a1,"animate__animated")
 clA(a1,"animate__fadeOut")
+clA(a1,"animate__delay-2s")
 clA(a1,"animate__slower")
 
 let b1=crE("button")
