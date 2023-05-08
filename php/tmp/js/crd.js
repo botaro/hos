@@ -1,4 +1,4 @@
-let bod=gTg("body")[0]
+let bod=gTn("body")[0]
 cl(bod)
 
 let c1=crE("div")
