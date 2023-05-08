@@ -4,6 +4,7 @@ let boxes = [];
 let circles = [];
 let grounds = [];
 let mConstraint;
+let count = 0;
 
 let sizes = [5, 10, 20, 30, 40];
 
@@ -27,7 +28,6 @@ function setup() {
   World.add(world, mConstraint);
 }
 
-let count = 0;
 
 function draw() {
   background(51);
